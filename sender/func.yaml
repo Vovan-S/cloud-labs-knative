@@ -3,7 +3,7 @@ name: bot
 namespace: ""
 runtime: python
 registry: ""
-image: ""
+image: vovans/knative-test-sender
 imageDigest: ""
 buildpacks: []
 builder: ""
