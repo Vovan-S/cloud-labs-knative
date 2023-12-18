@@ -1,6 +1,3 @@
-from parliament import Context
-from flask import Request
-import json
 import os
 import telebot
 import requests
@@ -28,6 +25,3 @@ def start_message(message):
     )
 
 bot.infinity_polling()
-
-def main(context: Context):
-    return "{}", 200

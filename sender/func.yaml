@@ -9,7 +9,11 @@ buildpacks: []
 builder: ""
 volumes: []
 buildEnvs: []
-envs: []
+envs:
+- name: TG_TOKEN
+  value: 6460078812:AAHVh6zPkQqDGYuI92FDy4vfRQuh2w7kjHg
+- name: REDIS_VIEW_URL
+  value: http://bot-redis-view.default.192.168.199.172.sslip.io
 annotations: {}
 options: {}
 labels: []
