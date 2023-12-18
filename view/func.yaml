@@ -1,0 +1,23 @@
+specVersion: 0.25.0
+name: view
+namespace: ""
+runtime: python
+registry: ""
+image: vovans/knative-test-view
+imageDigest: sha256:7b23d646ffba5def57f90ee91dcbd678dd722c7b9c72ef1c93c452aa30512af5
+buildpacks: []
+builder: pack
+volumes: []
+buildEnvs: []
+envs:
+- name: REDIS_HOST
+  value: 192.168.199.172
+annotations: {}
+options: {}
+labels: []
+healthEndpoints:
+  liveness: /health/liveness
+  readiness: /health/readiness
+created: 2023-12-17T14:07:18.50719779+03:00
+invocation:
+  format: http
